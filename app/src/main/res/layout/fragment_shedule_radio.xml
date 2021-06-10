@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!-- code here for button-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pink_bg"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_shedule"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_shedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/padding_20"/>
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+</layout>

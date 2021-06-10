@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_activityScreenTitles">
+        <item >Now Playing</item>
+        <item >Advertisement</item>
+        <item > Contact Us</item>
+        <item >About Us</item>
+
+    </string-array>
+    <array name="id_activityScreenIcon">
+        <item>@drawable/ic_baseline_play_arrow_24</item>
+
+        <item>@drawable/ic_advertise</item>
+        <item>@drawable/ic_contact</item>
+        <item>@drawable/ic_information</item>
+
+    </array>
+
+</resources>

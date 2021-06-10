@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Raddio Shagoon</string>
+    <string name="name">name</string>
+    <string name="loading">Loading....</string>
+    <string name="contact_us_details">About Us \n</string>
+
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="registration">Add Customer</string>
+    <string name="profile">Profile</string>
+    <string name="selectclass">Select Class: </string>
+
+    <string name="number">Number</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="unlimited_education_erp">UNLIMITED EDUCATION ERP</string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="mobile">Mobile *</string>
+    <string name="address">address </string>
+    <string name="check_internet">check_internet *</string>
+    <string name="check_internetnPlay">Check_internet connection  and click on play button</string>
+
+
+    <string name="details">details</string>
+
+
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="next">Next</string>
+    <string name="slide_1_title">M90 </string>
+    <string name="slide_1_desc">Javatpoint is passionate to offer better technical content to the world.</string>
+
+    <string name="slide_2_title">M90</string>
+    <string name="slide_2_desc">Android is a mobile operating system developed by Google.</string>
+
+    <string name="slide_3_title">M90</string>
+    <string name="slide_3_desc">Android is a mobile operating system developed by Google.</string>
+
+    <string name="checkinternaet">Please check internet connection</string>
+
+    <string name="delete">Delete</string>
+    <string name="about">"Raddio Shagoon is a free radio app with a modern, beautiful and easy to use interface,\n"
+                "Raddio Shagoon gives you the best experience when it comes to listening to online radio.\n"
+                "\nFEATURES\n listen to radio in background while using other apps\n"
+                "dont need to connect the headphones,listen through the smartphone's loudspeakers \nshare with friends via Social Media, SMS or Email\n"
+                "\n The best android application to listen to all the Hindi radio stations available.\nNote: An internet connection, 3G/4G or WiFi network is required to tune in radio stations.\n"</string>
+
+
+    <string name="show">Show</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="select_all">Select All</string>
+    <string name="accept">"I agreed with this Terms &amp; Condition,\n Privacy Policy and Rules  <u> </u>"</string>
+
+
+</resources>

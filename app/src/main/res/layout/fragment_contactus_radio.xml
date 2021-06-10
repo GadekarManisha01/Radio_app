@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!-- code here for button-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:id="@+id/ll_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="@dimen/padding_10"
+          >
+
+            <ImageView
+                android:id="@+id/img_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_gmail"
+                android:layout_margin="@dimen/padding_10"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advertise with us"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:padding="@dimen/padding_10"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/ll_mail"
+            android:id="@+id/ll_whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="@dimen/padding_10"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_whatsapp"
+                android:layout_margin="@dimen/padding_10"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drop a WhatsApp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:padding="@dimen/padding_10"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+</layout>

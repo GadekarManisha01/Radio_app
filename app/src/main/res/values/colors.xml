@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#132051</color>
+    <color name="colorPrimaryDark">#132051</color>
+    <color name="colorAccent">#DC33CD75</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="appgrey">#c2c3c3</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightGrey">#f4f4f4</color>
+    <color name="grey_2">#F8F7F7</color>
+    <color name="bgcolor">#69d3e6</color>
+    <color name="colorGrey">#696969</color>
+    <color name="lnew">#23dfc7</color>
+    <color name="orange">#fc7500</color>
+    <color name="yellow">#EFDF4E</color>
+    <color name="lightgrey2">#f4f4f4</color>
+    <color name="red">#FF0000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#988989</color>
+    <color name="dot_dark_screen2">#988989</color>
+    <color name="dot_dark_screen3">#988989</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#fc7500</color>
+    <color name="dot_light_screen2">#fc7500</color>
+    <color name="dot_light_screen3">#fc7500</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <color name="color_blue">#001931</color>
+    <color name="color_blue1">#1e7bb8</color>
+    <color name="color_transperent">#CCE6E0E0</color>
+
+    <color name="color_red">#F44336</color>
+    <color name="color_golden">#FFD700</color>
+</resources>

@@ -1,0 +1,36 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/pink_bg"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:src="@drawable/radiologo"
+            android:layout_margin="@dimen/padding_10"
+            android:visibility="visible"
+            />
+        <ImageView
+            android:layout_below="@id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgsound"
+            android:scaleType="center"
+            android:src="@drawable/soundbg"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
+</layout>
